@@ -3,7 +3,7 @@ import { useFonts } from "expo-font";
 import { Slot } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 const RootLayout = () => {
   const [loaded] = useFonts({
@@ -16,12 +16,12 @@ const RootLayout = () => {
 
   return (
     <View style={globalStyles.background}>
-      <Text>RootLayout</Text>
+      {/* <Text>RootLayout</Text> */}
       <Slot />
-      <Text>Footer</Text>
+      {/* <Text>Footer</Text> */}
 
       {/* Indicator of the wifi, battery, etc */}
-      <StatusBar style="light" />
+      <StatusBar style="auto" />
     </View>
   );
 };
