@@ -1,3 +1,4 @@
+import { ThemeText } from "@/components/ThemeText";
 import { globalStyles } from "@/styles/global-styles";
 import React from "react";
 import { Text, View } from "react-native";
@@ -14,6 +15,8 @@ const CalculatorApp = () => {
       </Text>
 
       <Text style={globalStyles.subResult}>25000</Text>
+
+      <ThemeText>Hola mundo</ThemeText>
     </View>
   );
 };
