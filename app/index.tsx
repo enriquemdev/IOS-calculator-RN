@@ -34,7 +34,11 @@ const CalculatorApp = () => {
           blackText
           buttonColor={Colors.lightGray}
         />
-        <CalculatorButton label="÷" onPress={() => console.log("1")} />
+        <CalculatorButton
+          label="÷"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.orange}
+        />
       </View>
     </View>
   );
