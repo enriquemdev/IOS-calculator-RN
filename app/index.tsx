@@ -40,6 +40,92 @@ const CalculatorApp = () => {
           buttonColor={Colors.orange}
         />
       </View>
+
+      <View style={globalStyles.row}>
+        <CalculatorButton
+          label="7"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="8"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="9"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="X"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.orange}
+        />
+      </View>
+
+      <View style={globalStyles.row}>
+        <CalculatorButton
+          label="4"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="5"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="6"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="-"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.orange}
+        />
+      </View>
+      <View style={globalStyles.row}>
+        <CalculatorButton
+          label="1"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="2"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="3"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="+"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.orange}
+        />
+      </View>
+      <View style={globalStyles.row}>
+        <CalculatorButton
+          label="0"
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+          doubleSize={true}
+        />
+        <CalculatorButton
+          label="."
+          onPress={() => console.log("1")}
+          buttonColor={Colors.darkGray}
+        />
+        <CalculatorButton
+          label="="
+          onPress={() => console.log("1")}
+          buttonColor={Colors.orange}
+        />
+      </View>
     </View>
   );
 };
